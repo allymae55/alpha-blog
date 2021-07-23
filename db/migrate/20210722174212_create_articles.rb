@@ -4,7 +4,6 @@ class CreateArticles < ActiveRecord::Migration[6.1]
 
       t.timestamps
       t.string :title
-      t.text :description
       
     end
   end
