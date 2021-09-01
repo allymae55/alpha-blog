@@ -45,13 +45,17 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background: #007bff;
+  background: gray;
 }
 
 body {
     background-color: lightgray;
   }
-  
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #007bff !important;
+}
      
     
     
