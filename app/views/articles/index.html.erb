@@ -1,3 +1,14 @@
 
 <h1 class="text-center mt-4">Articles listing page</h1>
+<div class="apple_pagination">
+    <!-- render page links in the view:-->
+    <%= will_paginate @articles, :container => false %>
+</div>
 <%= render 'article' %>
+
+<div class="md-4">
+
+<div class="apple_pagination md-4">
+    <!-- render page links in the view:-->
+    <%= will_paginate @articles, :container => false %>
+</div>
